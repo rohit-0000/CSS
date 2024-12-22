@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 3</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(28, 28, 92);
+            width:100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:610px;
+            height:400px;
+            display: flex;
+            border: 2px solid black;
+        }
+        .right{
+            padding: 30px;
+            background-color: rgb(82, 34, 127);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        img{
+            width:300px;
+            height:396px;
+        }
+        .foot{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left{
+            width: 500px;
+        }
+        .one{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .second{
+            font-size: 1rem;
+        }
+        #con{
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        h2{
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="right">
+                <h2>Get insights that help
+                    your business grow</h2>
+                <p id="con">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorum officia incidunt earum harum deserunt nam suscipit totam in nisi?</p>
+                <div class="foot">
+                    <div id="fst">
+                        <p class="one">10K+</p>
+                        <p class="second">Comments</p>
+                    </div>
+                    <div id="snd">
+                        <p class="one">214</p>
+                        <p class="second">Paid Users</p>
+                    </div>
+                    <div id="trd">
+                        <p class="one">12M+</p>
+                        <p class="second">Views</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left">
+                <img src="qr2.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
